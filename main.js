@@ -39,7 +39,7 @@ class BlockChain{
         this.miningReward = 100
     }
     createGenesisBlock(){
-        return new Block("28/12/2022", "Genesis Block", '0')
+        return new Block("03/02/2023", "Genesis Block", '0')
     }
 
     getLastBlock(){
